@@ -1,0 +1,49 @@
+📁 llm-studies
+├── 📂 theory (Teorik bilgiler ve açıklamalar)
+│ ├── 📄 1_what_is_llm.md
+│ │ ├─ 🔹 LLM (Large Language Model) Nedir?
+│ │ ├─ 🔹 Geleneksel NLP Modelleri vs. LLM
+│ │ ├─ 🔹 LLM’lerin Kullanım Alanları
+│ │ ├─ 🔹 LLM’lerin Sınırlamaları ve Etik Sorunlar
+│ │ ├─ 🔹 Örnek: OpenAI GPT, Google Gemini, Meta Llama
+│ │
+│ ├── 📄 2_tokenization.md
+│ │ ├─ 🔹 Tokenization Nedir?
+│ │ ├─ 🔹 Word-Level, Subword, Character-Level Tokenization
+│ │ ├─ 🔹 Byte-Pair Encoding (BPE)
+│ │ ├─ 🔹 WordPiece & SentencePiece
+│ │ ├─ 🔹 Örnek Kod: Tokenization’ın Çalışma Mantığı
+│ │
+│ ├── 📄 3_embeddings.md
+│ │ ├─ 🔹 Embedding Nedir?
+│ │ ├─ 🔹 Word2Vec, GloVe, FastText
+│ │ ├─ 🔹 Transformer Tabanlı Embeddings (BERT, GPT)
+│ │ ├─ 🔹 Vektörel Uzayda Anlam Benzerliği
+│ │ ├─ 🔹 Örnek Kod: Kelime Vektörlerini Görselleştirme
+│ │
+│ ├── 📄 4_transformer_mimarisi.md
+│ │ ├─ 🔹 Transformer Modelinin Genel Yapısı
+│ │ ├─ 🔹 Self-Attention Mekanizması
+│ │ ├─ 🔹 Multi-Head Attention
+│ │ ├─ 🔹 Positional Encoding
+│ │ ├─ 🔹 Encoder-Decoder Yapısı
+│ │ ├─ 🔹 Örnek Kod: Self-Attention Hesaplaması
+│ │
+│ ├── 📄 5_vektorel_temsil.md
+│ │ ├─ 🔹 Vektör Uzayında Veri Temsili
+│ │ ├─ 🔹 Kelime Vektörleri Nasıl Görselleştirilir?
+│ │ ├─ 🔹 PCA ve t-SNE Kullanımı
+│ │ ├─ 🔹 Örnek Kod: Embedding’leri 2D/3D Uzaya Dökme
+│ │
+├── 📂 implementations (Küçük çaplı kodlar ve örnek uygulamalar)
+│ ├── 📄 tokenization_example.py (Tokenization nasıl çalışır?)
+│ ├── 📄 word_embedding_visualization.py (Embedding’leri görselleştirme)
+│ ├── 📄 self_attention_demo.py (Self-Attention hesaplaması)
+│ ├── 📄 transformer_from_scratch.py (Basit Transformer Modeli)
+│
+├── 📂 projects (Gelişmiş projeler ve uygulamalar)
+│ ├── 📂 mini-bert-clone/ (Transformer mimarisi ile küçük bir model eğitme)
+│ ├── 📂 text-generation-app/ (Kendi metin üretici uygulamanı yapma)
+│ ├── 📂 embedding-visualizer/ (Embedding’leri görselleştiren interaktif uygulama)
+│
+├── 📄 README.md (Genel açıklamalar ve yönlendirme)
